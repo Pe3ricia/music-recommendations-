@@ -23,6 +23,7 @@ venv/
 ENV/
 env/
 .env
+.claude
 
 # =============================================================================
 # Jupyter Notebooks
@@ -47,7 +48,7 @@ data/processed/*.parquet
 data/processed/*.pkl
 data/processed/*.npy
 data/processed/*.npz
-
+data/stolen_music/*.mp3
 # Keep directory structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
