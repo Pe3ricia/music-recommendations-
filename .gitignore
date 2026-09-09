@@ -49,6 +49,8 @@ data/processed/*.pkl
 data/processed/*.npy
 data/processed/*.npz
 data/stolen_music/*.mp3
+data/descriptions/*.csv
+data/descriptions/*.parquet
 # Keep directory structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
