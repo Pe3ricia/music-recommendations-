@@ -51,6 +51,7 @@ data/processed/*.npz
 data/stolen_music/*.mp3
 data/descriptions/*.csv
 data/descriptions/*.parquet
+data/sintetic_intents/*.csv
 # Keep directory structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
@@ -64,6 +65,9 @@ models/*.h5
 models/*.pt
 models/*.pth
 models/*.onnx
+models/huggingface/
+models/pip_cache/
+models/tmp/
 !models/.gitkeep
 
 # =============================================================================
